@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*background color*/
+        body{
+            background-color: #f2f2f2;
+        }
+        /*background image*/
+        .banner{
+            background-image: url(pink.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        /*background gradient*/
+        .gradient-box{
+            background-image: linear-gradient(to right, #6699ff, #ffafb0);
+        }
+        /*background attachment*/
+        .fixed-background{
+            background-image: url(pink.jpg);
+            background-attachment: fixed;
+        }
+    </style>
+    <div class="banner">
+        <h1>Welcome!</h1>
+    </div>
+
+    <div class="gradient-box">
+        <p>this box has a gradient background</p>
+    </div>
+
+    <div class="fixed-background">
+        <p>this background is fixed</p>
+    </div>
+</body>
+</html>
